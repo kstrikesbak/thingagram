@@ -10,6 +10,7 @@
     grid-template-rows: repeat(5,1fr);
     grid-template-areas:
     "headie headie headie headie headie"
+    "navbar navbar navbar navbar navbar"
     "pic-01 pic-02 pic-03 pic-04 pic-05"
     "pic-06 pic-07 pic-08 pic-09 pic-10"
     "pic-11 pic-12 pic-13 pic-14 pic-15"
@@ -18,17 +19,18 @@
 }
 
 img {
-    height: 100%;
-    width: 100%
+    height: 90%;
+    width: 90%
 }
 
 #picture-one {
-    background-color: #f3ca40;
+    background-color: lightblue;
     grid-area: pic-01;
+    border: salmon;
 }
 
 #picture-two {
-    background-color: #4b4e6d;
+    background-color: lightblue;
     grid-area: pic-02;
 
 }
@@ -111,6 +113,11 @@ img {
     grid-area: footie;
 }
 
+#nav {
+    background-color: pink;
+    grid-area: navbar;
+}
+
 @media (max-width: 800px) {
     #app {
     font-size: 5em;
@@ -118,6 +125,7 @@ img {
     grid-template-rows: repeat(7,1fr);
     grid-template-areas:
     "headie headie headie"
+    "navbar navbar navbar"
     "pic-01 pic-02 pic-03"
     "pic-04 pic-05 pic-06"
     "pic-07 pic-08 pic-09"
@@ -132,9 +140,10 @@ img {
     #app {
     font-size: 3em;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(17,1fr);
+    grid-template-rows: repeat(18,1fr);
     grid-template-areas:
     "headie"
+    "navbar"
     "pic-01"
     "pic-02"
     "pic-03"
