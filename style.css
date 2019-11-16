@@ -7,7 +7,7 @@
     text-align: center;
     height: 100vh;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(5,1fr);
+    grid-template-rows: repeat(6,1fr);
     grid-template-areas:
     "headie headie headie headie headie"
     "navbar navbar navbar navbar navbar"
@@ -117,6 +117,32 @@ img {
     background-color: pink;
     grid-area: navbar;
 }
+
+ul {
+    display: grid;
+    grid-template-areas: 
+    'home news cont abou';
+}
+
+#home {
+    grid-area: home;
+}
+#news {
+    grid-area: news;
+}
+#cont {
+    grid-area: cont;
+}
+
+#about {
+    grid-area: abou;
+}
+
+
+
+
+
+
 
 @media (max-width: 800px) {
     #app {
