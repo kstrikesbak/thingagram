@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+#app {
+    display: grid;
+    font-size: 8em;
+    text-align: center;
+    height: 100vh;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas:
+    "headie headie headie headie headie"
+    "pic-01 pic-02 pic-03 pic-04 pic-05"
+    "pic-06 pic-07 pic-08 pic-09 pic-10"
+    "pic-11 pic-12 pic-13 pic-14 pic-15"
+    "footie footie footie footie footie"
+    ;
+}
+
+#picture-one {
+    background-color: #f3ca40;
+    grid-area: pic-01;
+}
+
+#picture-two {
+    background-color: #4b4e6d;
+    grid-area: pic-02;
+
+}
+
+#picture-three {
+    background-color: #6a8d92;
+    grid-area: pic-03;
+}
+
+#picture-four {
+    background-color: #f3ca40;
+    grid-area: pic-04;
+}
+
+#picture-five {
+    background-color: #4b4e6d;
+    grid-area: pic-05;
+
+}
+
+#picture-six {
+    background-color: #6a8d92;
+    grid-area: pic-06;
+}
+
+#picture-seven {
+    background-color: #f3ca40;
+    grid-area: pic-07;
+}
+
+#picture-eight {
+    background-color: #4b4e6d;
+    grid-area: pic-08;
+
+}
+
+#picture-nine {
+    background-color: #6a8d92;
+    grid-area: pic-09;
+}
+    
+#picture-ten {
+    background-color: yellow;
+    grid-area: pic-10;
+}
+
+#picture-eleven {
+    background-color: #f2a541;
+    grid-area: pic-11;
+}
+
+#picture-twelve {
+    background-color: #4b4e6d;
+    grid-area: pic-12;
+
+}
+
+#picture-thirteen {
+    background-color: #6a8d92;
+    grid-area: pic-13;
+}
+    
+#picture-fourteen {
+    background-color: yellow;
+    grid-area: pic-14;
+}
+
+#picture-fifteen {
+    background-color: #f2a541;
+    grid-area: pic-15;
+}
+
+#header {
+    background-color:red;
+    grid-area: headie;
+}
+
+#footer {
+    background-color: #f08a4b;
+    grid-area: footie;
+}
+
+@media (max-width: 800px) {
+    #app {
+    font-size: 5em;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas:
+    "headie headie headie headie headie"
+    "pic-01 pic-02 pic-03 pic-04 pic-05"
+    "pic-06 pic-07 pic-08 pic-09 pic-10"
+    "pic-11 pic-12 pic-13 pic-14 pic-15"
+    "footie footie footie footie footie"
+    ;
+    }
+}
+
+@media (max-width: 500px) {
+    #app {
+    font-size: 3em;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(10,1fr);
+    grid-template-areas:
+    "headie headie headie headie headie"
+    "pic-01 pic-02 pic-03 pic-04 pic-05"
+    "pic-06 pic-07 pic-08 pic-09 pic-10"
+    "pic-11 pic-12 pic-13 pic-14 pic-15"
+    "footie footie footie footie footie"
+    ;
+    }
+}
