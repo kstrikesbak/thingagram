@@ -17,6 +17,11 @@
     ;
 }
 
+img {
+    height: 100%;
+    width: 100%
+}
+
 #picture-one {
     background-color: #f3ca40;
     grid-area: pic-01;
@@ -109,11 +114,11 @@
 @media (max-width: 800px) {
     #app {
     font-size: 5em;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(8,1fr);
     grid-template-areas:
-    "headie headie headie headie headie"
-    "pic-01 pic-02 pic-03 pic-04 pic-05"
+    "headie headie headie"
+    "pic-01 pic-02 pic-03"
     "pic-06 pic-07 pic-08 pic-09 pic-10"
     "pic-11 pic-12 pic-13 pic-14 pic-15"
     "footie footie footie footie footie"
@@ -124,14 +129,28 @@
 @media (max-width: 500px) {
     #app {
     font-size: 3em;
-    grid-template-columns: 1;
-    grid-template-rows: repeat(10,1fr);
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(17,1fr);
     grid-template-areas:
-    "headie headie headie headie headie"
-    "pic-01 pic-02 pic-03 pic-04 pic-05"
-    "pic-06 pic-07 pic-08 pic-09 pic-10"
-    "pic-11 pic-12 pic-13 pic-14 pic-15"
-    "footie footie footie footie footie"
+    "headie"
+    "pic-01"
+    "pic-02"
+    "pic-03"
+    "pic-04"
+    "pic-05"
+    "pic-06"
+    "pic-07"
+    "pic-08"
+    "pic-09"
+    "pic-10"
+    "pic-11"
+    "pic-12"
+    "pic-13"
+    "pic-14"
+    "pic-15"
+    "footie"
+    
+    
     ;
     }
 }
