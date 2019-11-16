@@ -115,13 +115,15 @@ img {
     #app {
     font-size: 5em;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(8,1fr);
+    grid-template-rows: repeat(7,1fr);
     grid-template-areas:
     "headie headie headie"
     "pic-01 pic-02 pic-03"
-    "pic-06 pic-07 pic-08 pic-09 pic-10"
-    "pic-11 pic-12 pic-13 pic-14 pic-15"
-    "footie footie footie footie footie"
+    "pic-04 pic-05 pic-06"
+    "pic-07 pic-08 pic-09"
+    "pic-10 pic-11 pic-12"
+    "pic-13 pic-14 pic-15"
+    "footie footie footie"
     ;
     }
 }
