@@ -30,10 +30,9 @@ h2 {
     text-align: center;
     height: 100vh;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr);
     grid-template-areas:
-    "headie headie headie animat animat"
-    "navbar navbar navbar animat animat"
+    "navbar navbar navbar navbar navbar"
     "pic-01 pic-02 pic-03 pic-04 pic-05"
     "pic-06 pic-07 pic-08 pic-09 pic-10"
     "pic-11 pic-12 pic-13 pic-14 pic-15"
@@ -55,7 +54,7 @@ img {
 }
 
 footer, p {
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
     color:black;
 }
@@ -158,6 +157,7 @@ footer, p {
     /* background-color: pink; */
     grid-area: navbar;
     font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul {
