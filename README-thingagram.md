@@ -13,7 +13,7 @@ Busra is attempting to make coding her passion. Her other passions include her c
 
 ## License
 
-This project is licensed under the BBB License.
+This project is licensed under the BBB (Bad Boy Bhuva) License.
 
 ## Acknowledgments
 
