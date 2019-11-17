@@ -1,5 +1,6 @@
 * {
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
@@ -21,7 +22,7 @@ p {
 }
 @media (max-width:500px) {
     #app {
-        display:grid 
+        display:grid;
     }
     h1 {
         font-size: 50px;
@@ -41,7 +42,7 @@ p {
 
 @media (max-width:800px) {
     #app {
-        display:grid 
+        display:grid;
     }
     h1 {
         font-size: 65px;
