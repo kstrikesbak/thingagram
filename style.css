@@ -152,18 +152,8 @@ ul {
 
 @media (max-width: 500px) {
 
-    #p-foot{
-        font-size: 0.2em;
-    }
-    #nav {
-        font-size: 0.1em;
-    }
-    #header {
-        font-size: 0.3em;
-    }
     #app {
-    display:grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 50%;
     grid-template-rows: repeat(18,1fr);
     grid-template-areas:
     "headie"
@@ -185,6 +175,15 @@ ul {
     "pic-15"
     "footie";
     }
+    #p-foot{
+        font-size: 0.2em;
+    }
+    #nav {
+        font-size: 0.1em;
+    }
+    #header {
+        font-size: 0.3em;
+    }
 }
 
 @media (max-width: 800px) {
@@ -199,7 +198,6 @@ ul {
     }
     #app {
     font-size: 5em;
-    display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(8,1fr);
     grid-template-areas:
