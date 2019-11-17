@@ -24,10 +24,10 @@ p {
         display:grid 
     }
     h1 {
-        font-size: 65px;
+        font-size: 50px;
     }
     h2 {
-        font-size: 45px;
+        font-size: 35px;
     }
     
     li {
@@ -35,7 +35,7 @@ p {
     }
     
     p {
-        font-size: 35px;
+        font-size: 20px;
     }
 }
 
@@ -44,10 +44,10 @@ p {
         display:grid 
     }
     h1 {
-        font-size: 80px;
+        font-size: 65px;
     }
     h2 {
-        font-size: 60px;
+        font-size: 50px;
     }
     
     li {
@@ -55,6 +55,6 @@ p {
     }
     
     p {
-        font-size: 50px;
+        font-size: 30px;
     }
 }
