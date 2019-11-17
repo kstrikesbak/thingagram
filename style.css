@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-image: url("Delicate.jpg")
+}
 
-html,body {
+#animation {
     font-family: 'Raleway', sans-serif;
     padding: 1em 2em;
-    font-size: 18px;
+    font-size: 35px;
     background: #222;
     color: #aaa
 }
@@ -30,7 +33,7 @@ h2 {
     grid-template-rows: repeat(6,1fr);
     grid-template-areas:
     "headie headie headie animat animat"
-    "navbar navbar navbar navbar navbar"
+    "navbar navbar navbar animat animat"
     "pic-01 pic-02 pic-03 pic-04 pic-05"
     "pic-06 pic-07 pic-08 pic-09 pic-10"
     "pic-11 pic-12 pic-13 pic-14 pic-15"
@@ -54,82 +57,82 @@ footer, p {
 }
 
 #picture-one {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     grid-area: pic-01;
-    border: salmon;
+    /* border: salmon; */
 }
 
 #picture-two {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     grid-area: pic-02;
 
 }
 
 #picture-three {
-    background-color: #6a8d92;
+    /* background-color: #6a8d92; */
     grid-area: pic-03;
 }
 
 #picture-four {
-    background-color: #f3ca40;
+    /* background-color: #f3ca40; */
     grid-area: pic-04;
 }
 
 #picture-five {
-    background-color: #4b4e6d;
+    /* background-color: #4b4e6d; */
     grid-area: pic-05;
 
 }
 
 #picture-six {
-    background-color: #6a8d92;
+    /* background-color: #6a8d92; */
     grid-area: pic-06;
 }
 
 #picture-seven {
-    background-color: #f3ca40;
+    /* background-color: #f3ca40; */
     grid-area: pic-07;
 }
 
 #picture-eight {
-    background-color: #4b4e6d;
+    /* background-color: #4b4e6d; */
     grid-area: pic-08;
 
 }
 
 #picture-nine {
-    background-color: #6a8d92;
+    /* background-color: #6a8d92; */
     grid-area: pic-09;
 }
     
 #picture-ten {
-    background-color: yellow;
+    /* background-color: yellow; */
     grid-area: pic-10;
 }
 
 #picture-eleven {
-    background-color: #f2a541;
+    /* background-color: #f2a541; */
     grid-area: pic-11;
 }
 
 #picture-twelve {
-    background-color: #4b4e6d;
+    /* background-color: #4b4e6d; */
     grid-area: pic-12;
 
 }
 
 #picture-thirteen {
-    background-color: #6a8d92;
+    /* background-color: #6a8d92; */
     grid-area: pic-13;
 }
     
 #picture-fourteen {
-    background-color: yellow;
+    /* background-color: yellow; */
     grid-area: pic-14;
 }
 
 #picture-fifteen {
-    background-color: #f2a541;
+    /* background-color: #f2a541; */
     grid-area: pic-15;
 }
 
@@ -138,17 +141,17 @@ footer, p {
 }
 
 #header {
-    background-color:red;
+    /* background-color:red; */
     grid-area: headie;
 }
 
 #footer {
-    background-color: #f08a4b;
+    /* background-color: #f08a4b; */
     grid-area: footie;
 }
 
 #nav {
-    background-color: pink;
+    /* background-color: pink; */
     grid-area: navbar;
     font-size: 1em;
 }
@@ -176,28 +179,28 @@ ul {
 
 @media (max-width: 500px) {
 
+    #animation {
+        font-family: 'Raleway', sans-serif;
+        padding: 1em 2em;
+        font-size: 5px;
+        background: #222;
+        color: #aaa
+    }
+
     #app {
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(10,1fr);
     grid-template-areas:
-    "headie"
-    "navbar"
-    "pic-01"
-    "pic-02"
-    "pic-03"
-    "pic-04"
-    "pic-05"
-    "pic-06"
-    "pic-07"
-    "pic-08"
-    "pic-09"
-    "pic-10"
-    "pic-11"
-    "pic-12"
-    "pic-13"
-    "pic-14"
-    "pic-15"
-    "footie";
+    "animat animat animat"
+    "animat animat animat"
+    "headie headie headie"
+    "navbar navbar navbar"
+    "pic-01 pic-02 pic-03"
+    "pic-04 pic-05 pic-06"
+    "pic-07 pic-08 pic-09"
+    "pic-10 pic-11 pic-12"
+    "pic-13 pic-14 pic-15"
+    "footie footie footie";
     }
     #p-foot{
         font-size: 0.2em;
