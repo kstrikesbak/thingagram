@@ -23,6 +23,10 @@ img {
     width: 90%
 }
 
+#header {
+    font-family: sans-serif;
+}
+
 footer, p {
     font-family: fantasy;
     font-size: 100px;
@@ -122,12 +126,14 @@ footer, p {
 #nav {
     background-color: pink;
     grid-area: navbar;
+    font-size: 1em;
 }
 
 ul {
     display: grid;
     grid-template-areas: 
-    'home news cont abou';
+    'home news cont abou'
+    ;
 }
 
 #home {
@@ -144,33 +150,19 @@ ul {
     grid-area: abou;
 }
 
-
-
-
-
-
-
-@media (max-width: 800px) {
-    #app {
-    font-size: 5em;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(7,1fr);
-    grid-template-areas:
-    "headie headie headie"
-    "navbar navbar navbar"
-    "pic-01 pic-02 pic-03"
-    "pic-04 pic-05 pic-06"
-    "pic-07 pic-08 pic-09"
-    "pic-10 pic-11 pic-12"
-    "pic-13 pic-14 pic-15"
-    "footie footie footie"
-    ;
-    }
-}
-
 @media (max-width: 500px) {
+
+    #p-foot{
+        font-size: 0.2em;
+    }
+    #nav {
+        font-size: 0.1em;
+    }
+    #header {
+        font-size: 0.3em;
+    }
     #app {
-    font-size: 3em;
+    display:grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(18,1fr);
     grid-template-areas:
@@ -191,9 +183,33 @@ ul {
     "pic-13"
     "pic-14"
     "pic-15"
-    "footie"
-    
-    
-    ;
+    "footie";
+    }
+}
+
+@media (max-width: 800px) {
+    #p-foot{
+        font-size: 0.4em;
+    }
+    #nav {
+        font-size: 0.3em;
+    }
+    #header {
+        font-size: 0.7em;
+    }
+    #app {
+    font-size: 5em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas:
+    "headie headie headie"
+    "navbar navbar navbar"
+    "pic-01 pic-02 pic-03"
+    "pic-04 pic-05 pic-06"
+    "pic-07 pic-08 pic-09"
+    "pic-10 pic-11 pic-12"
+    "pic-13 pic-14 pic-15"
+    "footie footie footie";
     }
 }
