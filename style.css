@@ -1,6 +1,26 @@
 * {
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+html,body {
+    font-family: 'Raleway', sans-serif;
+    padding: 1em 2em;
+    font-size: 18px;
+    background: #222;
+    color: #aaa
+}
+
+h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+}
+h1 { font-size: 3.5em; }
+h2 {
+    color: #888;
+    font-size: 2em;
+}
+
 #app {
     display: grid;
     font-size: 8em;
@@ -9,7 +29,7 @@
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(6,1fr);
     grid-template-areas:
-    "headie headie headie headie headie"
+    "headie headie headie animat animat"
     "navbar navbar navbar navbar navbar"
     "pic-01 pic-02 pic-03 pic-04 pic-05"
     "pic-06 pic-07 pic-08 pic-09 pic-10"
@@ -111,6 +131,10 @@ footer, p {
 #picture-fifteen {
     background-color: #f2a541;
     grid-area: pic-15;
+}
+
+#animation {
+    grid-area: animat;
 }
 
 #header {
