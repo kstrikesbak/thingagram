@@ -6,7 +6,7 @@ Busra is attempting to make coding her passion. Her other passions include her c
 ## Challenges faced
 
 * Responsiveness of homepage applied in all three formats 
-* Rmbedding animation to homepage and making it responsive in all three formats
+* Embedding animation to homepage and making it responsive in all three formats
 * TIME - I could have spent a year on this project tweaking every little thing
 
 ## Authors
